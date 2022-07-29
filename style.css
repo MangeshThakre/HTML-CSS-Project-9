@@ -130,7 +130,16 @@ nav > div > ul {
   margin: 30px 5.4%;
   /* position: relative; */
   overflow: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none; /* Firefox */
 }
+
+.section-two::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge add Firefox */
+
 
 .scroll-l {
   display: flex;
@@ -274,7 +283,7 @@ nav > div > ul {
   border-top-left-radius: 85px;
 }
 .container-right {
-  width: 24rem;
+  width: 22rem;
   position: relative;
 }
 .container-right > div:nth-child(1) {
@@ -300,7 +309,7 @@ nav > div > ul {
   display: flex;
   align-items: center;
   bottom: -15px;
-  left: 10rem;
+  left: 7rem;
 }
 .legend > div {
   height: 50px;
