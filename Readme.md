@@ -12,7 +12,7 @@
 
 > #### This project took 2 hour to complete, background-positioning took most of the time.  
 
- ##  _[live project link]( full-stack-js-html-css-project-9.netlify.app/  "HTML-CSS_Project-9" )_
+ ##  _[live project link]( full-stack-js-html-css-project-9.netlify.app  "HTML-CSS_Project-9" )_
 
 ## Demo
 
