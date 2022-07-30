@@ -14,6 +14,6 @@
 
  ##  _[live project link](https://github.com/MangeshThakre/HTML-CSS-Project-8/blob/master/project-9.png "HTML-CSS_Project-9" )_
 
-## Screenshort
+## Demo
 
 ![alt text](https://github.com/MangeshThakre/HTML-CSS-Project-9/blob/master/project-9.gif)
