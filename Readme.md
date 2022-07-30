@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Live%20Project%209-Developer%20Landing%20Page-brightgreen)
 
-# wed design landing page
+# Developer Landing page
 > HTML - CSS Project-9
 
 🙌 hey There I'm mangesh Thakre Wed Developer 
