@@ -10,7 +10,7 @@
  - Applied @media query on section 4 for responsiveness
  - Learned more about flex-box  
 
-> #### This project took 2 hour to complete, background-positioning took most of the time.  
+> #### This project took 6 hour to complete.  
 
  ##  _[Live project link](https://full-stack-js-html-css-project-9.netlify.app/  "HTML-CSS_Project-9" )_
 
