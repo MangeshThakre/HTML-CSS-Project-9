@@ -3,19 +3,17 @@
 # Developer Landing page
 > HTML - CSS Project-9
 
-🙌 hey There I'm mangesh Thakre Wed Developer 
+🙌 hey There I'm mangesh Thakre Web Developer 
 ##  What I've learnd form this project 
  
  - Learned about attribute selector 
  - Applied @media query on section 4 for responsiveness
  - Learned more about flex-box  
 
-> #### This project took 2 hour to complete, background-positioning took most of the time.  
+> #### This project took 6 hour to complete.  
 
- ##  _[live project link](https://github.com/MangeshThakre/HTML-CSS-Project-8/blob/master/project-9.png "HTML-CSS_Project-9" )_
+ ##  _[Live project link](https://full-stack-js-html-css-project-9.netlify.app/  "HTML-CSS_Project-9" )_
 
-## Screenshort
-![alt text](https://github.com/MangeshThakre/HTML-CSS-Project-8/blob/master/porject-8.png)
+## Demo
 
-
-![alt text](https://github.com/MangeshThakre/HTML-CSS-Project-9/blob/master/porject-9.gif)
+![alt text](https://github.com/MangeshThakre/HTML-CSS-Project-9/blob/master/project-9.gif)
