@@ -21,24 +21,30 @@
     ></script>
     <title>HTML-CSS-Project-9</title>
   </head>
-  <body>
+  <body class="body">
     <!-- nav -->
     <section>
       <nav>
-        <img src="./image/white-logo.png" alt="" />
-        <div>
-          <ul>
+        <img src="./image/white-logo.png" alt="logo" />
+        <div >
+          <ul class="list-items">
             <li>home</li>
             <li>APIs</li>
             <li>Blogs</li>
             <li>Formus</li>
             <li>Login</li>
             <li>sign Up</li>
-            <li>
-              <i class="fa-solid fa-magnifying-glass"></i>
-            </li>
           </ul>
         </div>
+        <div class ="search">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+
+<div class="buttoncontainer">
+  <div class ="hamburger-menu "> </div>
+
+</div>
+
       </nav>
       <!-- section one -->
       <div class="section-one">
@@ -229,4 +235,23 @@
       </div>
     </footer>
   </body>
+
+
+  <script>
+  
+    // const herocontainer = document.querySelector(".hero-container")
+    const body = document.querySelector(".body")
+    const sidebarMenu = document.querySelector(".list-items")
+    const buttoncontainer =document.querySelector(".buttoncontainer")
+    const burgermenu = document.querySelector(".hamburger-menu")
+    buttoncontainer.addEventListener('click' , (e)=>{
+      burgermenu.classList.toggle("cross-menu")
+      sidebarMenu.classList.toggle("close")
+      body.classList.toggle("hide-scroll")
+      // herocontainer.classList.toggle("shadow")
+      
+    })
+  
+  </script>
+
 </html>

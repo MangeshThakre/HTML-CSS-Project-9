@@ -31,26 +31,34 @@ nav > img {
 nav > div {
   width: 47rem;
 }
-nav > div > ul > li {
-  height: 2.3rem;
+nav > div > ul > li,
+.search {
   list-style-type: none;
   color: white;
+  height: 2.3rem;
   width: 5rem;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 5px;
   cursor: pointer;
+  transition: background-color 0.2s ease;
 }
 nav > div > ul > li:hover {
   background-color: white;
   color: #4415fe;
   font-weight: bold;
-  transition: background-color 0.5s ease;
 }
 nav > div > ul {
   display: flex;
   justify-content: space-between;
+}
+
+.search:hover {
+  background-color: white;
+  color: #4415fe;
+  font-weight: bold;
+  transition: background-color 0.5s ease;
 }
 
 /* section one */
@@ -140,7 +148,6 @@ nav > div > ul {
 
 /* Hide scrollbar for IE, Edge add Firefox */
 
-
 .scroll-l {
   display: flex;
   width: 85rem;
@@ -189,12 +196,12 @@ nav > div > ul {
   transition: box-shadow 0.5s ease, background-color 0.5s ease;
 }
 
-.section-two-box.one{
+.section-two-box.one {
   background-color: #ffffff;
   box-shadow: 0 0 20px rgba(193, 193, 193, 0.3);
 }
 
-.section-two-box.one> div > div > h3 {
+.section-two-box.one > div > div > h3 {
   color: #4415fe;
   transition: all 0.5s ease;
 }
@@ -206,7 +213,6 @@ nav > div > ul {
 .section-two-box.one > div > .icon > img:nth-child(2) {
   display: none;
 }
-
 
 .arrow {
   position: absolute;
@@ -260,6 +266,7 @@ nav > div > ul {
   box-shadow: 0 0 20px rgba(193, 193, 193, 0.3);
   background: white;
   border-top-left-radius: 86px;
+  flex-wrap: wrap;
 }
 .container-left > img {
   width: 22rem;
@@ -363,7 +370,7 @@ nav > div > ul {
   .section-four {
     background-image: url("/image/business-financial-concept-with-magnifying-glass-question-mark-yellow-background-flat-lay.jpg");
     background-position: center center;
-    background-size: 100%;
+    background-size: 130%;
     background-repeat: no-repeat;
     width: 100%;
   }
@@ -448,4 +455,189 @@ footer > div > div > i {
   margin: 10px 40px 10px 0px;
   font-size: large;
   cursor: pointer;
+}
+
+.buttoncontainer {
+  display: none;
+}
+
+/* hamburger-menu */
+
+.hamburger-menu::before {
+  position: absolute;
+  content: "";
+  background: white;
+  width: 1.5rem;
+  height: 3px;
+  border-radius: 20px;
+  bottom: 6px;
+  transition: all 0.3s ease;
+}
+
+.hamburger-menu {
+  display: none;
+  background: white;
+  width: 24px;
+  height: 3px;
+  border-radius: 20px;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.hamburger-menu::after {
+  position: absolute;
+  content: "";
+  background: white;
+  width: 1.5rem;
+  height: 3px;
+  border-radius: 20px;
+  top: 6px;
+  transition: all 0.3s ease;
+}
+
+.cross-menu::before {
+  bottom: 0px;
+  transform: rotate(45deg);
+  transition: all 0.3s ease;
+}
+
+.cross-menu {
+  background: transparent;
+}
+
+.cross-menu::after {
+  transition: all 0.3s ease;
+  top: 0px;
+  transform: rotate(-45deg);
+}
+
+@media (max-width: 500px) {
+  /* body */
+  .hide-scroll {
+    overflow: hidden;
+  }
+
+  img[alt="logo"] {
+    width: 5rem;
+  }
+  nav {
+    padding: 0 1.5rem;
+  }
+
+  nav > div > ul {
+    display: none;
+  }
+  .search:hover {
+    background-color: #4415fe;
+    color: white;
+    transition: none;
+  }
+  .buttoncontainer {
+    display: block;
+    height: 2rem;
+    width: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1rem;
+    cursor: pointer;
+  }
+  .hamburger-menu {
+    display: block;
+  }
+
+  /* sidebarmenu */
+  .close {
+    display: block;
+  }
+
+  .list-items {
+    height: 100vh;
+    background: #4415fe;
+    margin-top: 50px;
+    width: 100%;
+    left: 0;
+    color: white;
+    position: absolute;
+    padding-top: 5rem;
+  }
+
+  .list-items > li {
+    margin: 2rem auto;
+  }
+
+  .list-items > li:nth-child(5),
+  .list-items > li:nth-child(6) {
+    background-color: white;
+    color: #4415fe;
+    font-weight: bold;
+    width: 7em;
+  }
+
+  /* section one */
+
+  .section-one > div:nth-child(1) {
+    padding: 0 30px;
+  }
+  .section-one-content {
+    margin-top: 2rem;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+  }
+
+  .hero {
+    display: none;
+  }
+
+  .section-one-one > .list {
+    margin: 30px 20px;
+  }
+  .section-one-one > .list > h3 {
+    font-size: 17px;
+    text-align: center;
+  }
+  /* section-three */
+
+  .section-three-container {
+    height: 26rem;
+  }
+  .container-left-one,
+  .container-left-two {
+    height: 11rem;
+    width: 100%;
+    background-size: 132%;
+  }
+
+  /* section-five */
+
+  .section-five > div:nth-child(2) {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .section-five > div > form {
+    width: 20rem;
+  }
+  .section-five > div:nth-child(2) > form:nth-child(1) > input:nth-child(1) {
+    width: 100%;
+  }
+
+  /* footer */
+  footer {
+    padding: 40px 0;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  footer > div {
+    margin: 1rem 0;
+  }
+
+  .section-four {
+    background-size: 235%;
+    background-position: left;
+  }
 }

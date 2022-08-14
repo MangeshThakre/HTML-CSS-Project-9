@@ -7,7 +7,7 @@
 ##  What I've learnd form this project 
  
  - Learned about attribute selector 
- - Applied @media query on section 4 for responsivenes
+ - Applied @media query on section 4 for responsiveness
  - Learned more about flex-box  
 
 > #### This project took 2 hour to complete, background-positioning took most of the time.  
