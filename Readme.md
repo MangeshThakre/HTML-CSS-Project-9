@@ -16,4 +16,9 @@
 
 ## Demo
 
-![alt text](https://github.com/MangeshThakre/HTML-CSS-Project-9/blob/master/project-9.gif)
+
+
+![alt text](https://github.com/MangeshThakre/HTML-CSS-Project-9/blob/master/project%20img/My%20project%20(6).png)
+
+
+![alt text](https://github.com/MangeshThakre/HTML-CSS-Project-9/blob/master/project%20img/project-9.gif)
